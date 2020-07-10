@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Booking a flight for given source and destination.",
+        "description": "",
+        "id": "testing-flight-booking-page-as-per-given-requirements.;booking-a-flight-for-given-source-and-destination.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15096311600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Initializing the browser and open the url",
+            "match": {
+              "location": "Steps.initializing_the_browser_and_open_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10696068100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the flight details Bengaluru and Delhi",
+            "match": {
+              "location": "Steps.enter_the_flight_details_Bengaluru_and_Delhi()"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28410407700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "search for flight",
+            "match": {
+              "location": "Steps.search_for_flight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1564192300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "able to select best flight",
+            "match": {
+              "location": "Steps.able_to_select_best_flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "Steps.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing flight booking page as per given requirements.",
+    "description": "",
+    "id": "testing-flight-booking-page-as-per-given-requirements.",
+    "keyword": "Feature",
+    "uri": "book.feature"
+  }
+]

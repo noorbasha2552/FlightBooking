@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="opera"/>
+  <test thread-count="5" name="Test chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="booking_runner.Booking"/>
+    </classes>
+  </test> <!-- Test chrome -->
+  <test thread-count="5" name="Test opera">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="booking_runner.Booking"/>
+    </classes>
+  </test> <!-- Test opera -->
+</suite> <!-- Failed suite [Suite] -->

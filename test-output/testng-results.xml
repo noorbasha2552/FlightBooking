@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="129763" started-at="2020-07-10T04:43:19Z" finished-at="2020-07-10T04:45:29Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:booking_runner.Booking@1df82230]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:booking_runner.Booking@5db250b4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test chrome" duration-ms="49585" started-at="2020-07-10T04:43:19Z" finished-at="2020-07-10T04:44:09Z">
+      <class name="booking_runner.Booking">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:booking_runner.Booking@1df82230]" name="initialization" is-config="true" duration-ms="10544" started-at="2020-07-10T10:13:19Z" finished-at="2020-07-10T10:13:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:booking_runner.Booking@1df82230]" name="setUpClass" is-config="true" duration-ms="503" started-at="2020-07-10T10:13:30Z" finished-at="2020-07-10T10:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:booking_runner.Booking@1df82230]" name="feature" duration-ms="38348" started-at="2020-07-10T10:13:30Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-10T10:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing flight booking page as per given requirements.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:booking_runner.Booking@1df82230]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2020-07-10T10:14:09Z" finished-at="2020-07-10T10:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- booking_runner.Booking -->
+    </test> <!-- Test chrome -->
+    <test name="Test opera" duration-ms="80084" started-at="2020-07-10T04:44:09Z" finished-at="2020-07-10T04:45:29Z">
+      <class name="booking_runner.Booking">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:booking_runner.Booking@5db250b4]" name="initialization" is-config="true" duration-ms="24235" started-at="2020-07-10T10:14:09Z" finished-at="2020-07-10T10:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:booking_runner.Booking@5db250b4]" name="setUpClass" is-config="true" duration-ms="22" started-at="2020-07-10T10:14:33Z" finished-at="2020-07-10T10:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:booking_runner.Booking@5db250b4]" name="feature" duration-ms="55807" started-at="2020-07-10T10:14:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-10T10:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing flight booking page as per given requirements.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:booking_runner.Booking@5db250b4]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2020-07-10T10:15:29Z" finished-at="2020-07-10T10:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- booking_runner.Booking -->
+    </test> <!-- Test opera -->
+  </suite> <!-- Suite -->
+</testng-results>
